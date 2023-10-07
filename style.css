@@ -2,21 +2,31 @@
     display: flex;
     background-color: blueviolet;
     margin-top: 20px;
+    justify-content: space-between;
 }
 .left-card{
     background-color: rgb(17, 17, 55);
     width: 200px;
     border-radius: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
 }
 
 .left-card-top{
     background-color: rgb(85, 6, 160);
     padding: 20px;
+    margin-bottom: 20px;
+    height: 67%;
+
 }
+
 
 .left-card-bottom{
     padding: 20px;
+    margin-bottom: 20px;
+
 }
 
 .imageContainer >h2{
@@ -32,6 +42,7 @@
     width: 200px;
     border-radius: 20px;
     margin-top: 20px;
+    height: 67%;
 }
 
 .top-card{
@@ -61,33 +72,35 @@
     background-color: aqua;
     width: 200px;
     margin-top: 20px;
-
+    height: 67%;
 }
 
 .table-card{
     background-color: brown;
     width: 200px;
     margin-top: 20px;
-
+    height: 67%;
 }
 
 .fit-card{
     background-color: greenyellow;
     width: 200px;
     margin-top: 20px;
-
+    height: 67%;
 }
 
 .society-card{
     background-color: blueviolet;
     width: 200px;
     margin-top: 20px;
+    height: 67%;
 
 }
 .clinic-card{
     background-color: rgb(212, 212, 8);
     width: 200px;
     margin-top: 20px;
+    height: 67%;
 
 }
 
