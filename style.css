@@ -1,0 +1,32 @@
+.left-card{
+    background-color: rgb(17, 17, 55);
+    width: 200px;
+}
+
+.left-card-top{
+    background-color: rgb(85, 6, 160);
+    padding: 20px;
+}
+
+.left-card-bottom{
+    padding: 20px;
+}
+
+.imageContainer >h2{
+    color: white;
+}
+
+.imageContainer >h4{
+    color:white;
+}
+
+.work-card{
+    background-color: coral;
+}
+
+.icon-card{
+    background-color: darkblue;
+}
+
+
+
