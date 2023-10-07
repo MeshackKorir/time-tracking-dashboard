@@ -1,6 +1,8 @@
-/* .main-container{
+.main-container{
     display: flex;
-} */
+    background-color: blueviolet;
+    margin-top: 20px;
+}
 .left-card{
     background-color: rgb(17, 17, 55);
     width: 200px;
@@ -25,22 +27,6 @@
     color:white;
 }
 
-/* .work-card{
-    /* display: flex; */
-    /* background-color: coral;
-    padding: 20px;
-    width: 150px; */
-    /* margin-top: 20px;
-}
-
-.top-card{
-    justify-content: end;
-}
-
-.bottom-card{
-    display: flex;
-    background-color: rgb(77, 77, 167);
-} */ 
 .work-card{
     background-color: coral;
     width: 200px;
@@ -52,6 +38,7 @@
     display: flex;
     justify-content: end;
     height: 20%;
+    margin-top: 20px;
 }
 
 .bottom-card{
@@ -59,13 +46,49 @@
     height: 80%;
     border-radius: 20px;
     padding: 0 20px;
-
+    margin-top: 20px;
 }
 
 .icon-work{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
+
+}
+
+.monitor-card{
+    background-color: aqua;
+    width: 200px;
+    margin-top: 20px;
+
+}
+
+.table-card{
+    background-color: brown;
+    width: 200px;
+    margin-top: 20px;
+
+}
+
+.fit-card{
+    background-color: greenyellow;
+    width: 200px;
+    margin-top: 20px;
+
+}
+
+.society-card{
+    background-color: blueviolet;
+    width: 200px;
+    margin-top: 20px;
+
+}
+.clinic-card{
+    background-color: rgb(212, 212, 8);
+    width: 200px;
+    margin-top: 20px;
+
 }
 
 
