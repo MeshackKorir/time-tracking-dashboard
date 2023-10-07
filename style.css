@@ -1,6 +1,11 @@
+/* .main-container{
+    display: flex;
+} */
 .left-card{
     background-color: rgb(17, 17, 55);
     width: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
 }
 
 .left-card-top{
@@ -20,13 +25,47 @@
     color:white;
 }
 
+/* .work-card{
+    /* display: flex; */
+    /* background-color: coral;
+    padding: 20px;
+    width: 150px; */
+    /* margin-top: 20px;
+}
+
+.top-card{
+    justify-content: end;
+}
+
+.bottom-card{
+    display: flex;
+    background-color: rgb(77, 77, 167);
+} */ 
 .work-card{
     background-color: coral;
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
 }
 
-.icon-card{
-    background-color: darkblue;
+.top-card{
+    display: flex;
+    justify-content: end;
+    height: 20%;
 }
 
+.bottom-card{
+    background-color: rgb(101, 101, 139);
+    height: 80%;
+    border-radius: 20px;
+    padding: 0 20px;
+
+}
+
+.icon-work{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
