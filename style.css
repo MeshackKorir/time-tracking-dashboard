@@ -1,44 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .main-container{
     background-color: rgb(13, 2, 23);
     margin-top: 20px;
     height: 50%;
     justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 'cardc workc monitorc tablec' 
+    'letf-cardc fitc societyc clinicc';
     padding: 20px;
     gap: 20px; 
     width: 80%;
-    height: 60%;
+    display: flex;
 }
 
 .left-card{
     background-color: darkblue;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
     margin: 10px;
     width: 200px;
     border-radius: 10px;
-    grid-area: secondc;
+    grid-area: cardc;
+     height: 50vh;
+
 }
 
 .left-card-top{
     background-color: cornflowerblue;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.left-card-bottom{
+    margin-left: 20px;
+    color: white;
 }
 
 .work-card{
     background-color: coral;
     width: 200px;
     border-radius: 10px;
-    grid-area: secondc;
+    grid-area: workcc;
+    height: 48%;
 }
 .top-card{
     justify-content: flex-end;
     display: flex;
-
 }
 
 .monitor-card{
     background-color: aqua;
     width: 200px;
     border-radius: 10px;
-    grid-area: secondc;
+    grid-area: monitorc;
+    height: 48%;
+
 }
 
 .machine-card{
@@ -49,7 +78,9 @@
     background-color: brown;
     width: 200px;
     border-radius: 10px;
-    grid-area: secondc;
+    grid-area: tablec;
+    height: 48%;
+
 }
 
 .table-card-card{
@@ -60,19 +91,65 @@
     background-color: darkgreen;
     width: 200px;
     border-radius: 10px;
-    grid-area: secondc;
+    grid-area: fitc;
+    height: 48%;
+
+}
+
+.fit-fit-card{
+    justify-content: flex-end;
 }
 
 .society-card{
     background-color: darkblue;
     width: 200px;
     border-radius: 10px;
-    grid-area: secondc;
+    grid-area: societyc;
+    height: 48%;
+
 }
+
+.society-card-card{
+    justify-content: flex-end;
+    display: flex;}
 
 .clinic-card{
     background-color: darkorange;
     width: 200px;
     border-radius: 10px;
-    grid-area: secondc;
+    grid-area: clinicc;
+    height: 48%;
+
+}
+
+.clinic-card-card{
+    justify-content: flex-end;
+}
+
+.icon-work{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-top: 40px;
+    align-items: center;
+}
+.icon-work >h2{
+    color: beige;
+}
+
+.icon-description{
+    color: rgb(245, 215, 215);
+}
+
+.icon-description >h3{
+    color: rgb(142, 129, 129);
+}
+
+.bottom-card-card{
+    background-color: rgb(33, 33, 92);
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    justify-content: center;
+    justify-content: space-between;
 }
