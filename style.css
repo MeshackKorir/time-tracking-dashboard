@@ -17,14 +17,14 @@ body{
     height: 50%;
     justify-content: center;
     display: grid;
+    padding: 20px;
+    gap: 20px; 
+    width: 80%;
+    /* display: flex; */
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: 'cardc workc monitorc tablec' 
     'letf-cardc fitc societyc clinicc';
-    padding: 20px;
-    gap: 20px; 
-    width: 80%;
-    display: flex;
 }
 
 .left-card{
@@ -152,4 +152,9 @@ body{
     border-radius: 10px;
     justify-content: center;
     justify-content: space-between;
+}
+
+.six-cards{
+    display: flex;
+    gap: 20px;
 }
